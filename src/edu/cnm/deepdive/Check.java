@@ -22,11 +22,11 @@ public class Check {
 
     int sumDigits = digitSum(fromCom);
     final int DIVISOR = 9;
-
-    System.out.printf("%5d", fromCom);
-    System.out.printf("%5d", fromCom%DIVISOR);
-    System.out.printf("%5d", sumDigits);
-    System.out.printf("%5d%", sumDigits%DIVISOR);
+    System.out.printf("\n");
+    System.out.printf("%5d\n", fromCom);
+    System.out.printf("%5d\n", fromCom%DIVISOR);
+    System.out.printf("%5d\n", sumDigits);
+    System.out.printf("%5d\n", sumDigits%DIVISOR);
     System.out.println();
 
   }
