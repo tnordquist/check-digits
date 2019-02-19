@@ -23,12 +23,6 @@ public class Check {
     int sumDigits = digitSum(fromCom);
     final int DIVISOR = 9;
 
-//Print the following values (formatted as you think appropriate):
-//    The local variable declared and assigned in step (6.a).
-//The remainder obtained when the local variable declared and defined in step (6.a) is divided by 9.
-//The local variable declared and assigned in step (6.b).
-//The remainder obtained when the local variable declared and defined in step (6.b) is divided by 9.
-
     System.out.printf("%5d", fromCom);
     System.out.printf("%5d", fromCom%DIVISOR);
     System.out.printf("%5d", sumDigits);
