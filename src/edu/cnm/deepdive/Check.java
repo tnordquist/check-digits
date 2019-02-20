@@ -4,16 +4,23 @@ import static java.lang.Integer.parseInt;
 
 public class Check {
 
-  public static int digitSum(int forStr) {
+  public static int digitSum(int input) {
 
-    String intStr = Integer.toString(forStr);
-    int sumDigits = 0;
+    int dividend = input;
+    final int DIVISOR = 10;
+    int quotient = dividend/DIVISOR;
+    int remainder = dividend%DIVISOR;
+    int sumRemainders=0;
+    sumRemainders+= remainder;
 
-    for (int i = 0; i < intStr.length(); ++i) {
-      String subString = intStr.substring(i, i + 1);
-      sumDigits += parseInt(subString);
+    while(quotient>0) {
+      dividend = quotient;
+      quotient = dividend/DIVISOR;
+      remainder=dividend%DIVISOR;
+      sumRemainders+=remainder;
     }
-    return sumDigits;
+
+    return sumRemainders;
   }
 
   public static void main(String[] args) {
