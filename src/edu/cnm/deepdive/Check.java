@@ -45,8 +45,8 @@ public class Check {
 
   public static void main(String[] args) {
 
-    //int fromCom = parseInt(args[0]);
-    int fromCom = 4046;
+    int fromCom = parseInt(args[0]);
+   // int fromCom = 4046;
 
     int singleDigit = reducedDigitSum(fromCom);
 

@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="TEST" name="org.junit.jupiter:junit-jupiter-api:5.3.2" level="application" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.4.0" level="application" />
+    <orderEntry type="library" exported="" scope="TEST" name="org.junit.jupiter:junit-jupiter-params:5.3.2" level="application" />
   </component>
 </module>
